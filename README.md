@@ -93,7 +93,7 @@ L’application adopte une architecture en couches :
 * Accès aux données : JDBC
 * IDE : NetBeans
 * Outil de gestion de base de données : phpMyAdmin
-Conclusion
+## Conclusion
 Cette application Java de réservation d’hôtel permet d’améliorer considérablement la gestion des chambres et des réservations. Elle offre une solution centralisée, fiable et facile à utiliser, réduisant les erreurs et optimisant le travail du personnel hôtelier. Des améliorations futures peuvent inclure la gestion des paiements, des statistiques avancées.
 
 
