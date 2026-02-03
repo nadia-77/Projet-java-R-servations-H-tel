@@ -40,21 +40,22 @@ Le diagramme de classes représente la structure statique de l’application et 
 ## Structure de la Base de Données
 La base de données de l’application repose principalement sur les tables suivantes :
 *Chambre
-id : identifiant de la chambre
-numero : numéro de la chambre
-type : type de chambre (Simple, Double, Suite, etc.)
-prix : prix par nuit
+id : identifiant de la chambre.
+numero : numéro de la chambre.
+type : type de chambre (Simple, Double, Suite, etc.).
+prix : prix par nuit.
 * Client
-id : identifiant du client
-nom : nom du client
-telephone : numéro de téléphone
+id : identifiant du client.
+nom : nom du client.
+telephone : numéro de téléphone.
 * Reservation
-id : identifiant de la réservation
-dateDebut : date de début de séjour
-dateFin : date de fin de séjour
-client_id : référence au client
-chambre_id : référence à la chambre
-* Script de la Base de Données
+id : identifiant de la réservation.
+dateDebut : date de début de séjour.
+dateFin : date de fin de séjour.
+client_id : référence au client.
+chambre_id : référence à la chambre.
+
+## Script de la Base de Données
 
 CREATE TABLE chambre (
 id INT AUTO_INCREMENT PRIMARY KEY,
